@@ -1,0 +1,46 @@
+{
+ "Account": {
+  "username": "anseltsm@gmail.com",
+  "password": "EvantrianA#12",
+  "Currency": "bttc"
+ },
+ "Target Profit": "100000",
+ "Target Win": "100000",
+ "Lose Target": "0",
+ "Save Profit": "0",
+ "Reset Seed": "100",
+ "Show Price": "ON",
+ "Play Game": "dice",
+ "Betset": [
+  {
+   "Name Bet Set": "00 - @riosuyanto",
+   "Base Bet": "0.1",
+   "Chance": "38",
+   "Random Chance": {
+    "Toggle": "ON",
+    "Min": "38",
+    "Max": "45"
+   },
+   "Bet": {
+    "Bet": "Low",
+    "Hi / Low": {
+     "Toggle": "OFF",
+     "If Lose": "4",
+     "If Win": "4"
+    }
+   },
+   "Mode1": {
+    "Toggle": "ON",
+    "Profit": "0.00000001",
+    "Multi Win": {
+     "LCMin": "45",
+     "LCMax": "57"
+    },
+    "Multi Lose": {
+     "LCMin": "1",
+     "LCMax": "1"
+    }
+   }
+  }
+ ]
+}
